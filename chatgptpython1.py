@@ -1,0 +1,10 @@
+#Faça um programa que leia o primeiro nome de uma pessoa, sua idade e sua cidade de nascimento.
+nome = str(input('Digite seu nome: ')).strip().capitalize()
+idade = str(input('Digite sua idade: ')).strip().lower()
+cidade = str(input('Digite o nome da cidade que nasceu: ')).strip().title()
+print('Cadastro realizado!')
+print('\033[31mNome:\033[m {}'.format(nome))
+print('\033[31mIdade:\033[m \033[35m {}\033[m'.format(idade))
+print('\033[31mCidade:\033[m {}'.format(cidade))
+print('Seu nome tem \033[35m {} \033[m letras.'.format(len(nome)))
+print('Sua cidade começa com São? \033[34m{}'.format(cidade.startswith('São ')))

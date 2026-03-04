@@ -1,0 +1,2 @@
+# Crie um programa que leia vários nº inteiros pelo teclado. O programa só vai parar quando o usuário digitar o valor 999, que é a condição
+# de parada. No final, mostre quantos nº foram digitados e qual foi a SOMA entre eles (desconsiderando o flag).
